@@ -1,0 +1,30 @@
+---
+title: 'Generarea imaginilor pe baza emoțiilor dintr-un text folosind Rețele Neuronale Adversariale și tehnici de interpretare a limbajului natural'
+author:
+  - name: Paul-Cosmin Petrila
+    affiliation: Facultatea de Automatică și Calculatoare
+    location: Iași, România
+    email: petrila.paulcosmin@gmail.com
+  - name: Lavinia-Eugenia Ferariu
+    affiliation: Facultatea de Automatică și Calculatoare
+    location: Iași, România
+    email: lavinia-eugenia.ferariu@academic.tuiasi.ro
+  
+keywords:
+  - NLP
+  - BERT
+  - CGAN
+  - Emotion
+numbersections: yes
+lang: ro
+papersize: a4
+babel-lang: romanian
+abstract: |
+ 
+  Această lucrare științifică își propune explorarea metodelor de analizare a sentimentelor 
+	limbajului natural și generarea unor imagini corespondente acestor sentimente. 
+	Analiza sentimentelor dintr-un text este îndeplinită utilizând BERT (Bidirectional Encoder Representations from Transformers)[@devlin-etal-2019-bert],
+	Pe baza rezultatului indicat de către LLM, rețeaua Conditional GAN[@goodfellow2014generative] va genera pentru fiecare text o imagine corespunzătoare. 
+
+...
+
