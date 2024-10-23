@@ -1,0 +1,41 @@
+\documentclass[conference, a4]{IEEEtran}
+\usepackage{config/ieee-paper}
+\usepackage[romanian]{babel}
+\usepackage{quiver}
+\usepackage[hashEnumerators,smartEllipses]{markdown}
+
+\input{config/hyphenation}
+
+% Adding references to the document
+\addbibresource{IEEEabrv.bib}
+\addbibresource{references.bib}
+
+\IEEEoverridecommandlockouts{}
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\begin{document}
+
+\title{Generarea imaginilor pe baza unor enunțuri descriptive folosind rețele neuronale adversariale și tehnici de prelucrare a limbajului natural}\\
+
+\input{chapters/authors}
+
+\maketitle
+
+\input{chapters/abstract}
+
+% \tableofcontents
+
+\input{chapters/1-introducere}
+\input{chapters/2-concepte}
+\input{chapters/3-metodologie}
+
+
+\input{chapters/acknowledgment}
+
+\printbibliography{}
+
+\vspace{12pt}
+\color{red}
+
+
+\end{document}
+
